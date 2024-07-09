@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circumcision Booking - Mediklinik Nusa Cheras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        header, footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header {
+            position: relative;
+            background-color: #ffffff; /* Set background to white */
+        }
+        .header-image {
+            width: 200px; /* Set desired width for middle size */
+            height: auto;
+            margin: 10px auto; /* Center the image horizontally */
+        }
+        .language-buttons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .language-buttons button {
+            background-color: #ffffff;
+            color: #4CAF50;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .language-buttons button:hover {
+            background-color: #4CAF50;
+            color: #ffffff;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        .faq, .wound-care, .slideshow, .why-choose-us {
+            margin-top: 20px;
+        }
+        .faq p, .wound-care p {
+            margin: 10px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+        }
+        .slideshow img {
+            width: 100%;
+            height: auto;
+        }
+        .slideshow .permission {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .permission-button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .permission-button:hover {
+            background-color: #45a049;
+        }
+        .why-choose-us ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .comparison-table, .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 8px;
+            text-align: left;
+        }
+        .comparison-table th {
+            background-color: #f2f2f2;
+        }
+        .comparison-images img {
+            width: 48%;
+            height: auto;
+            margin: 1%;
+        }
+    </style>
+    <script>
+        function setLanguage(language) {
+            var elements = document.querySelectorAll('[data-lang]');
+            elements.forEach(function(element) {
+                element.innerHTML = element.getAttribute('data-lang-' + language);
+            });
+        }
+
+        function showSlideshow() {
+            document.getElementById('slideshow-container').style.display = 'block';
+            document.getElementById('permission-container').style.display = 'none';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <img src="https://www.mediknusa.com/wp-content/uploads/2020/07/Untitled-design-35-e1655482912922.png" alt="Mediklinik Nusa Cheras" class="header-image">
+        <div class="language-buttons">
+            <button onclick="setLanguage('en')">English</button>
+            <button onclick="setLanguage('ms')">Malay</button>
+            <button onclick="setLanguage('zh')">Mandarin</button>
+        </div>
+    </header>
+    <div class="container">
+        <h2 data-lang data-lang-en="Book Your Circumcision Appointment" data-lang-ms="Tempah Temujanji Sunat Anda" data-lang-zh="预订割礼预约">Book Your Circumcision Appointment</h2>
+        <iframe src="https://docs.google.com/forms/d/1-F8grfHQ6Cov17QKYre9zlrOWvbbdopN4sMtxFfD3Xw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        
+        <div class="faq">
+            <h2 data-lang data-lang-en="Frequently Asked Questions (FAQ)" data-lang-ms="Soalan Lazim (FAQ)" data-lang-zh="常见问题 (FAQ)">Frequently Asked Questions (FAQ)</h2>
+            <h3 data-lang data-lang-en="What is circumcision?" data-lang-ms="Apakah itu sunat?" data-lang-zh="什么是割礼？">What is circumcision?</h3>
+            <p data-lang data-lang-en="Circumcision is a surgical procedure to remove the foreskin, the tissue covering the head of the penis. It is commonly performed on newborn boys in some cultures and religions, but can also be done on older boys and men." data-lang-ms="Sunat adalah prosedur pembedahan untuk membuang kulup, tisu yang menutupi kepala zakar. Ia biasa dilakukan pada bayi lelaki baru lahir dalam beberapa budaya dan agama, tetapi juga boleh dilakukan pada kanak-kanak lelaki dan lelaki yang lebih tua." data-lang-zh="割礼是一种外科手术，旨在去除覆盖阴茎头部的包皮。 在某些文化和宗教中，它通常在新生男婴中进行，但也可以在年长的男孩和男性中进行。">Circumcision is a surgical procedure to remove the foreskin, the tissue covering the head of the penis. It is commonly performed on newborn boys in some cultures and religions, but can also be done on older boys and men.</p>
+            
+            <h3 data-lang data-lang-en="Why should I consider circumcision for my child?" data-lang-ms="Mengapa saya perlu mempertimbangkan sunat untuk anak saya?" data-lang-zh="为什么我要考虑为我的孩子割礼？">Why should I consider circumcision for my child?</h3>
+            <p data-lang data-lang-en="There are various reasons for circumcision, including cultural, religious, and health reasons. Some health benefits include a reduced risk of urinary tract infections, penile cancer, and sexually transmitted infections." data-lang-ms="Terdapat pelbagai sebab untuk sunat, termasuk alasan budaya, agama, dan kesihatan. Beberapa manfaat kesihatan termasuk pengurangan risiko jangkitan saluran kencing, kanser zakar, dan jangkitan kelamin." data-lang-zh="进行割礼有多种原因，包括文化、宗教和健康原因。 一些健康益处包括降低尿路感染、阴茎癌和性传播感染的风险。">There are various reasons for circumcision, including cultural, religious, and health reasons. Some health benefits include a reduced risk of urinary tract infections, penile cancer, and sexually transmitted infections.</p>
+            
+            <h3 data-lang data-lang-en="What are the risks associated with circumcision?" data-lang-ms="Apakah risiko yang berkaitan dengan sunat?" data-lang-zh="割礼有什么风险？">What are the risks associated with circumcision?</h3>
+            <p data-lang data-lang-en="As with any surgical procedure, there are risks involved, including bleeding, infection, and an adverse reaction to the anesthesia. However, serious complications are rare." data-lang-ms="Seperti mana-mana prosedur pembedahan, terdapat risiko yang terlibat, termasuk pendarahan, jangkitan, dan reaksi buruk terhadap anestesia. Walau bagaimanapun, komplikasi serius jarang berlaku。" data-lang-zh="与任何外科手术一样，存在一定的风险，包括出血、感染和对麻醉的不良反应。 然而，严重并发症很少见。">As with any surgical procedure, there are risks involved, including bleeding, infection, and an adverse reaction to the anesthesia. However, serious complications are rare.</p>
+            
+            <h3 data-lang data-lang-en="How long does the procedure take?" data-lang-ms="Berapa lama masa prosedur ini?" data-lang-zh="手术需要多长时间？">How long does the procedure take?</h3>
+            <p data-lang data-lang-en="The circumcision procedure typically takes about 10 to 20 minutes. However, the entire process, including preparation and post-operative care, may take a few hours." data-lang-ms="Prosedur sunat biasanya mengambil masa kira-kira 10 hingga 20 minit. Walau bagaimanapun, keseluruhan proses, termasuk persiapan dan penjagaan selepas pembedahan, mungkin mengambil masa beberapa jam。" data-lang-zh="割礼手术通常需要大约 10 到 20 分钟。 但是，包括准备和术后护理在内的整个过程可能需要几个小时。">The circumcision procedure typically takes about 10 to 20 minutes. However, the entire process, including preparation and post-operative care, may take a few hours.</p>
+            
+            <h3 data-lang data-lang-en="Comparison of Circumcision Methods: Clamp vs. Laser vs. Stapler" data-lang-ms="Perbandingan Kaedah Sunat: Klamp vs. Laser vs. Stapler" data-lang-zh="割礼方法比较：钳夹 vs. 激光 vs. 订书机">Comparison of Circumcision Methods: Clamp vs. Laser vs. Stapler</h3>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th data-lang data-lang-en="Method" data-lang-ms="Kaedah" data-lang-zh="方法">Method</th>
+                        <th data-lang data-lang-en="Description" data-lang-ms="Penerangan" data-lang-zh="描述">Description</th>
+                        <th data-lang data-lang-en="Advantages" data-lang-ms="Kelebihan" data-lang-zh="优点">Advantages</th>
+                        <th data-lang data-lang-en="Disadvantages" data-lang-ms="Kekurangan" data-lang-zh="缺点">Disadvantages</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td data-lang data-lang-en="Clamp" data-lang-ms="Klamp" data-lang-zh="钳夹">Clamp</td>
+                        <td data-lang data-lang-en="A device is used to clamp the foreskin before it is removed." data-lang-ms="Satu alat digunakan untuk mengepit kulup sebelum ia dibuang。" data-lang-zh="使用夹具夹住包皮，然后将其切除。">A device is used to clamp the foreskin before it is removed.</td>
+                        <td data-lang data-lang-en="Minimal bleeding, quick procedure, cost-effective." data-lang-ms="Sedikit pendarahan, prosedur cepat, kos efektif。" data-lang-zh="出血少，手术快，成本低。">Minimal bleeding, quick procedure, cost-effective.</td>
+                        <td data-lang data-lang-en="May cause more discomfort during healing." data-lang-ms="Mungkin menyebabkan lebih banyak ketidakselesaan semasa penyembuhan。" data-lang-zh="愈合过程中可能会引起更多不适。">May cause more discomfort during healing.</td>
+                    </tr>
+                    <tr>
+                        <td data-lang data-lang-en="Laser" data-lang-ms="Laser" data-lang-zh="激光">Laser</td>
+                        <td data-lang data-lang-en="A laser is used to cut and remove the foreskin." data-lang-ms="Laser digunakan untuk memotong dan membuang kulup。" data-lang-zh="使用激光切割并去除包皮。">A laser is used to cut and remove the foreskin.</td>
+                        <td data-lang data-lang-en="Precise cutting, less bleeding, faster recovery." data-lang-ms="Pemotongan tepat, kurang pendarahan, pemulihan lebih cepat。" data-lang-zh="切割精确，出血少，恢复快。">Precise cutting, less bleeding, faster recovery.</td>
+                        <td data-lang data-lang-en="More expensive, requires specialized equipment." data-lang-ms="Lebih mahal, memerlukan peralatan khusus。" data-lang-zh="成本较高，需要专业设备。">More expensive, requires specialized equipment.</td>
+                    </tr>
+                    <tr>
+                        <td data-lang data-lang-en="Stapler" data-lang-ms="Stapler" data-lang-zh="订书机">Stapler</td>
+                        <td data-lang data-lang-en="A stapler device is used to cut and staple the foreskin." data-lang-ms="Alat stapler digunakan untuk memotong dan menjahit kulup。" data-lang-zh="使用订书机切割并固定包皮。">A stapler device is used to cut and staple the foreskin.</td>
+                        <td data-lang data-lang-en="Uniform cutting, quick procedure, minimal bleeding." data-lang-ms="Pemotongan seragam, prosedur cepat, sedikit pendarahan。" data-lang-zh="切割均匀，手术快，出血少。">Uniform cutting, quick procedure, minimal bleeding.</td>
+                        <td data-lang data-lang-en="Higher cost, potential for staple-related complications." data-lang-ms="Kos lebih tinggi, potensi komplikasi berkaitan dengan staples。" data-lang-zh="成本较高，可能会出现与订书钉相关的并发症。">Higher cost, potential for staple-related complications.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="comparison-images">
+                <img src="https://advinhealthcare.com/wp-content/uploads/2022/10/Circumcision-1-1024x596.jpg" alt="Clamp Circumcision">
+                <img src="https://metromaleclinic.com/wp-content/uploads/2019/11/stapler-circumcision-metromale-clinic-fertility-center-1.jpg" alt="Stapler Circumcision">
+            </div>
+        </div>
+        
+        <div class="wound-care">
+            <h2 data-lang data-lang-en="How to Take Care of the Wound" data-lang-ms="Bagaimana Menjaga Luka" data-lang-zh="如何护理伤口">How to Take Care of the Wound</h2>
+            <p data-lang data-lang-en="After the circumcision, it is crucial to follow proper wound care to ensure a smooth recovery:" data-lang-ms="Selepas sunat, adalah penting untuk mengikuti penjagaan luka yang betul untuk memastikan pemulihan yang lancar：" data-lang-zh="割礼后，遵循正确的伤口护理以确保顺利恢复至关重要：">After the circumcision, it is crucial to follow proper wound care to ensure a smooth recovery:</p>
+            <ul>
+                <li data-lang data-lang-en="Keep the area clean and dry." data-lang-ms="Pastikan kawasan tersebut bersih dan kering。" data-lang-zh="保持该区域清洁干燥。">Keep the area clean and dry.</li>
+                <li data-lang data-lang-en="Avoid submerging the wound in water for the first few days. Sponge baths are recommended." data-lang-ms="Elakkan merendam luka dalam air selama beberapa hari pertama. Mandian span disyorkan。" data-lang-zh="在头几天避免将伤口浸入水中。 建议使用海绵浴。">Avoid submerging the wound in water for the first few days. Sponge baths are recommended.</li>
+                <li data-lang data-lang-en="Change the dressing as instructed by your healthcare provider." data-lang-ms="Tukar pembalut seperti yang diarahkan oleh penyedia penjagaan kesihatan anda。" data-lang-zh="按照您的医疗服务提供者的指示更换敷料。">Change the dressing as instructed by your healthcare provider.</li>
+                <li data-lang data-lang-en="Apply a thin layer of petroleum jelly to the tip of the penis to prevent it from sticking to the diaper or underwear." data-lang-ms="Sapukan lapisan nipis jeli petroleum pada hujung zakar untuk mengelakkan ia melekat pada lampin atau seluar dalam。" data-lang-zh="在阴茎头部涂上一层薄薄的凡士林，以防止其粘在尿布或内裤上。">Apply a thin layer of petroleum jelly to the tip of the penis to prevent it from sticking to the diaper or underwear.</li>
+                <li data-lang data-lang-en="Avoid strenuous activities and wear loose-fitting clothing to prevent irritation." data-lang-ms="Elakkan aktiviti lasak dan pakai pakaian longgar untuk mengelakkan kerengsaan。" data-lang-zh="避免剧烈活动，穿宽松衣物以防止刺激。">Avoid strenuous activities and wear loose-fitting clothing to prevent irritation.</li>
+                <li data-lang data-lang-en="Monitor for signs of infection, such as increased redness, swelling, or discharge, and contact your healthcare provider if you notice any." data-lang-ms="Pantau tanda-tanda jangkitan, seperti peningkatan kemerahan, bengkak, atau lelehan, dan hubungi penyedia penjagaan kesihatan anda jika anda perasan ada。" data-lang-zh="监测感染迹象，例如发红、肿胀或分泌物增加，如果发现任何迹象，请联系您的医疗服务提供者。">Monitor for signs of infection, such as increased redness, swelling, or discharge, and contact your healthcare provider if you notice any.</li>
+            </ul>
+        </div>
+        
+        <div class="slideshow">
+            <h2 data-lang data-lang-en="Wound Recovery Slideshow" data-lang-ms="Tayangan Slaid Pemulihan Luka" data-lang-zh="伤口恢复幻灯片">Wound Recovery Slideshow</h2>
+            <p data-lang data-lang-en="The following images illustrate the typical recovery process after circumcision. Click on the images to view them in full size." data-lang-ms="Gambar berikut menggambarkan proses pemulihan biasa selepas sunat. Klik pada gambar untuk melihat saiz penuh。" data-lang-zh="以下图片展示了割礼后的典型恢复过程。 点击图片可查看完整尺寸。">The following images illustrate the typical recovery process after circumcision. Click on the images to view them in full size.</p>
+            <p data-lang data-lang-en="Note: These images contain sensitive content and are not suitable for viewers under 18 years old. Viewer discretion is advised." data-lang-ms="Nota: Gambar ini mengandungi kandungan sensitif dan tidak sesuai untuk penonton di bawah umur 18 tahun. Budi bicara penonton diperlukan。" data-lang-zh="注意：这些图片包含敏感内容，不适合 18 岁以下观众观看。 请慎重观看。">Note: These images contain sensitive content and are not suitable for viewers under 18 years old. Viewer discretion is advised.</p>
+            <div id="permission-container" class="permission">
+                <button class="permission-button" onclick="showSlideshow()" data-lang data-lang-en="I Agree" data-lang-ms="Saya Setuju" data-lang-zh="我同意">I Agree</button>
+            </div>
+            <div id="slideshow-container" style="display:none;">
+                <p data-lang data-lang-en="The wound recovery process involves several stages:" data-lang-ms="Proses pemulihan luka melibatkan beberapa peringkat:" data-lang-zh="伤口恢复过程涉及多个阶段：">The wound recovery process involves several stages:</p>
+                <ul>
+                    <li data-lang data-lang-en="Initial Healing: The first few days involve stopping bleeding and forming a scab over the wound." data-lang-ms="Penyembuhan Awal: Beberapa hari pertama melibatkan penghentian pendarahan dan pembentukan keruping pada luka。" data-lang-zh="初步愈合：前几天包括止血和在伤口上形成结痂。">Initial Healing: The first few days involve stopping bleeding and forming a scab over the wound.</li>
+                    <li data-lang data-lang-en="Swelling and Redness: It is normal to experience some swelling and redness around the area for the first week." data-lang-ms="Bengkak dan Kemerahan: Adalah normal untuk mengalami sedikit bengkak dan kemerahan di sekitar kawasan tersebut pada minggu pertama。" data-lang-zh="肿胀和发红：在第一个星期内，伤口周围的肿胀和发红是正常现象。">Swelling and Redness: It is normal to experience some swelling and redness around the area for the first week.</li>
+                    <li data-lang data-lang-en="Scab Formation: A scab will form over the wound, protecting it as new skin forms underneath." data-lang-ms="Pembentukan Keruping: Keruping akan terbentuk di atas luka, melindunginya semasa kulit baru terbentuk di bawahnya。" data-lang-zh="结痂形成：伤口上会形成结痂，在新皮肤形成时保护伤口。">Scab Formation: A scab will form over the wound, protecting it as new skin forms underneath.</li>
+                    <li data-lang data-lang-en="Scab Falling Off: The scab will eventually fall off, revealing new, healed skin beneath." data-lang-ms="Keruping Terjatuh: Keruping akhirnya akan terjatuh, mendedahkan kulit baru yang telah sembuh di bawahnya。" data-lang-zh="结痂脱落：结痂最终会脱落，露出下面新的愈合皮肤。">Scab Falling Off: The scab will eventually fall off, revealing new, healed skin beneath.</li>
+                    <li data-lang data-lang-en="Final Healing: Complete healing can take a few weeks to a couple of months, depending on individual healing rates." data-lang-ms="Penyembuhan Akhir: Penyembuhan lengkap boleh mengambil masa beberapa minggu hingga beberapa bulan, bergantung pada kadar penyembuhan individu。" data-lang-zh="最终愈合：完全愈合可能需要几周到几个月，具体取决于个人的愈合速度。">Final Healing: Complete healing can take a few weeks to a couple of months, depending on individual healing rates.</li>
+                </ul>
+                <iframe src="https://drive.google.com/embeddedfolderview?id=18EtjcM_0Ne-G8JBiS9QI80U2p8sIO2SN#grid" frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <div class="why-choose-us">
+            <h2 data-lang data-lang-en="Why Choose Us for Circumcision?" data-lang-ms="Mengapa Memilih Kami untuk Sunat?" data-lang-zh="为什么选择我们进行割礼？">Why Choose Us for Circumcision?</h2>
+            <ul>
+                <li data-lang data-lang-en="Experienced Medical Professionals: Our team consists of highly skilled and experienced medical professionals who have performed numerous circumcision procedures." data-lang-ms="Profesional Perubatan Berpengalaman: Pasukan kami terdiri daripada profesional perubatan yang sangat mahir dan berpengalaman yang telah melakukan banyak prosedur sunat。" data-lang-zh="经验丰富的医疗专业人员：我们的团队由技术娴熟、经验丰富的医疗专业人员组成，他们进行了大量的割礼手术。">Experienced Medical Professionals: Our team consists of highly skilled and experienced medical professionals who have performed numerous circumcision procedures.</li>
+                <li data-lang data-lang-en="Safe and Sterile Environment: We maintain a safe and sterile environment to ensure the highest standards of hygiene and patient safety." data-lang-ms="Persekitaran Selamat dan Steril: Kami mengekalkan persekitaran yang selamat dan steril untuk memastikan piawaian kebersihan dan keselamatan pesakit yang tertinggi。" data-lang-zh="安全和无菌的环境：我们保持一个安全和无菌的环境，以确保最高标准的卫生和病人安全。">Safe and Sterile Environment: We maintain a safe and sterile environment to ensure the highest standards of hygiene and patient safety.</li>
+                <li data-lang data-lang-en="Comprehensive Aftercare: We provide detailed aftercare instructions and follow-up support to ensure a smooth and quick recovery." data-lang-ms="Penjagaan Selepas yang Komprehensif: Kami menyediakan arahan penjagaan selepas yang terperinci dan sokongan susulan untuk memastikan pemulihan yang lancar dan cepat。" data-lang-zh="全面的术后护理：我们提供详细的术后护理说明和后续支持，以确保顺利和快速康复。">Comprehensive Aftercare: We provide detailed aftercare instructions and follow-up support to ensure a smooth and quick recovery.</li>
+                <li data-lang data-lang-en="Patient-Centered Care: We focus on providing personalized care tailored to each patient's needs and preferences." data-lang-ms="Penjagaan Berpusatkan Pesakit: Kami memberi tumpuan kepada menyediakan penjagaan peribadi yang disesuaikan dengan keperluan dan keutamaan setiap pesakit。" data-lang-zh="以患者为中心的护理：我们专注于提供个性化护理，以满足每位患者的需求和偏好。">Patient-Centered Care: We focus on providing personalized care tailored to each patient's needs and preferences.</li>
+                <li data-lang data-lang-en="Advanced Techniques: We use the latest techniques and equipment to ensure a minimally invasive and efficient procedure." data-lang-ms="Teknik Lanjutan: Kami menggunakan teknik dan peralatan terkini untuk memastikan prosedur yang minima invasif dan cekap。" data-lang-zh="先进技术：我们使用最新的技术和设备，确保微创和高效的手术。">Advanced Techniques: We use the latest techniques and equipment to ensure a minimally invasive and efficient procedure.</li>
+                <li data-lang data-lang-en="Comfortable Facility: Our clinic is designed to provide a comfortable and welcoming environment for patients and their families." data-lang-ms="Kemudahan Selesa: Klinik kami direka untuk menyediakan persekitaran yang selesa dan mesra untuk pesakit dan keluarga mereka。" data-lang-zh="舒适的设施：我们的诊所旨在为患者及其家人提供舒适和温馨的环境。">Comfortable Facility: Our clinic is designed to provide a comfortable and welcoming environment for patients and their families.</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p data-lang data-lang-en="© 2024 Mediklinik Nusa Cheras. All rights reserved." data-lang-ms="© 2024 Mediklinik Nusa Cheras. Hak cipta terpelihara。" data-lang-zh="© 2024 Mediklinik Nusa Cheras。版权所有。">© 2024 Mediklinik Nusa Cheras. All rights reserved.</p>
+    </footer>
+</body>
+</html>
